@@ -75,7 +75,6 @@
       <div class="container">
 
         <div class="row gy-4">
-
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
             <div>
