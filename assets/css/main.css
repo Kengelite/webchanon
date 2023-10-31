@@ -758,14 +758,18 @@ section {
   border: 1px solid rgba(14, 29, 52, 0.15);
   background: #fff;
   position: relative;
-  border-radius: 0;
+  border-radius: 10px;
   height: 100%;
 }
 
 .services .card .card-img {
   overflow: hidden;
   margin-bottom: 15px;
-  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  /* max-height: 400px; */
 }
 
 .services .card .card-img img {
@@ -1009,15 +1013,16 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions Section
 --------------------------------------------------------------*/
-.faq {
+/* .faq {
   padding-top: 80px;
-}
+} */
 
 .faq .accordion-item {
   border: 0;
   margin-bottom: 10px;
-}
 
+
+}
 .faq .accordion-collapse {
   border: 0;
 }

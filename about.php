@@ -2,188 +2,247 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Logis Bootstrap Template - Index</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>Logis Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="./assets/img/favicon.png" rel="icon">
-    <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="./assets/img/favicon.png" rel="icon">
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="./assets/css/main.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="./assets/css/main.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1>Chanon D.</h1>
-            </a>
+      <a href="./index.php" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Chanon D.</h1>
+      </a>
 
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="./index.php">หน้าหลัก</a></li>
-                    <li><a href="about.html">งานวิจัยและโครงงาน</a></li>
-                    <li><a href="services.html">ซอฟต์แวร์</a></li>
-                    <li><a href="./check_score.php">ตรวจสอบคะแนน</a></li>
-                    <li><a href="./about.php" class="active">เกี่ยวกับเรา</a></li>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="./index.php">หน้าหลัก</a></li>
+          <li><a href="./paper_project.php">งานวิจัยและโครงงาน</a></li>
+          <li><a href="services.html">ซอฟต์แวร์</a></li>
+          <li><a href="./checkscore.php">ตรวจสอบคะแนน</a></li>
+          <li><a href="./about.php" class="active">เกี่ยวกับเรา</a></li>
 
-                    <li><a href="contact.html">ติดต่อ</a></li>
-                    <li><a class="get-a-quote" href="get-a-quote.html">เข้าสู่ระบบ</a></li>
-                </ul>
-            </nav><!-- .navbar -->
+          <li><a href="contact.html">ติดต่อ</a></li>
+          <li><a class="get-a-quote" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row gy-4 d-flex justify-content-between">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h2 data-aos="fade-up">ชานนท์ เดชสุภา</h2>
+          <h2 data-aos="fade-up">Chanon Dechsupa</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Chanon Dechsupa received his Ph.D degree in computer engineering from department of Computer Engineering, Chulalongkorn University. From 2008 to 2015, he was a database programmer and a senior system analyst with many private sectors. His field of interest includes the formal method in software engineering, deep learning for software engineering and workflow design. He is inventing novel applications which apply digital technologies in various domains such as agriculture, biology, political science and so on.</p>
+
+          <!-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+            <input type="text" class="form-control" placeholder="ZIP code or CitY">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form> -->
+
 
         </div>
-    </header><!-- End Header -->
-    <!-- End Header -->
- <!-- ======= Hero Section ======= -->
- <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      
+
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+          <img src="./assets/img/ajchanonimage.jpeg" class="img-fluid mb-3 mb-lg-0" alt="">
+        </div>
+
+      </div>
     </div>
   </section><!-- End Hero Section -->
 
   <main id="main">
 
-    <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
-      <div class="container">
 
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
-            <div>
-              <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
-            <div>
-              <h4 class="title">Dolor Sitema</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
-            <div>
-              <h4 class="title">Sed ut perspiciatis</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Featured Services Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="service" class="services pt-0">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq pt-0">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <span>Our Services</span>
-          <h2>Our Services</h2>
+          <!-- <span>Frequently Asked Questions</span> -->
+          <h2>ข้อมูลส่วนตัว</h2>
 
         </div>
 
-        <div class="row gy-4">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-12">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
+            <div class="accordion accordion-flush" id="faqlist">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ข้อมูลส่วนตัว
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <h5 style="font-weight: bold;">ผู้ช่วยศาสตราจารย์ ดร.ชานนท์ เดชสุภา </h5>
+
+                    Chanon Dechsupa received his Ph.D degree in computer engineering from department of Computer Engineering, Chulalongkorn University. From 2008 to 2015, he was a database programmer and a senior system analyst with many private sectors. His field of interest includes the formal method in software engineering, deep learning for software engineering and workflow design.
+
+                    <h5 style="font-weight: bold; margin-top: 10px;">รางวัล/ทุน ที่ได้รับ</h5>
+                    <ol>
+                      <li>ทุนสนับสนุนการศึกษาหลักสูตรดุษฎีบัณฑิต 100 ปีจุฬาลงกรณ์มหาวิทยาลัย</li>
+                      <li>ทุนสนับสนุนงานวิจัย 90 จุฬาลงกรณ์มหาวิทยาลัย กองทุนรัชดาภิเษกสมโภช รุ่นที่ 37 ปีการศึกษา 2560</li>
+                      <li>ทุนสนับสนุนวิจัยในต่างประเทศตามโครงการ บันทึกความเข้าใจระหว่างคณะวิศวกรรมศาสตร์จุฬาลงกรณ์มหาวิทยาลัยและ National Institute of Informatics ประเทศญี่ปุ่น ระหว่างวันที่ 20 เมษายน 2560 ถึงวันที่ 13 ตุลาคม 2560</li>
+                      <li>ทุนนักวิจัยหลังปริญญาเอก กองทุนรัชดาภิเษกสมโภช จุฬาลงกรณ์มหาวิทยาลัย (2562-2565)</li>
+                    </ol>
+
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ประวัติการศึกษา
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <table style="width: 100%;">
+                      <tr>
+                        <th>ระดับ</th>
+                        <th>ชื่อปริญญา (สาขาวิชา)</th>
+                        <th>ชื่อสถาบัน,ประเทศ </th>
+                        <th>ปี พ.ศ. ที่จบ</th>
+                      </tr>
+                      <tr>
+                        <td>ปริญญาเอก</td>
+                        <td>วศ.ด. (วิศวกรรมคอมพิวเตอร์)</td>
+                        <td>จุฬาลงกรณ์มหาวิทยาลัย</td>
+                        <td>2562</td>
+                      </tr>
+                      <tr>
+                        <td>ปริญญาโท</td>
+                        <td>วท.ม. (วิศวกรรมซอฟต์แวร์)</td>
+                        <td>จุฬาลงกรณ์มหาวิทยาลัย</td>
+                        <td>2554</td>
+                      </tr>
+                      <tr>
+                        <td>ปริญญาตรี</td>
+                        <td>วท.บ. (ระบบสารสนเทศคอมพิวเตอร์)</td>
+                        <td>มหาวิทยาลัยบูรพา</td>
+                        <td>2551</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ประสบการณ์ทำงาน
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    2565 - ปัจจุบัน ผู้ช่วยศาสตราจารย์ วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น <br>
+                    2564- 2565 อาจารย์ วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น <br>
+                    2562 - 2565 ตำแหน่งนักวิจัยหลังปริญญาเอก คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย <br>
+                    2562 - 2563 ตำแหน่งอาจารย์ สถาบัน NetDesign กลุ่มวิชาภาษาโปรแกรม PHP, C# และการออกแบบฐานข้อมูล SQL <br>
+                    2560 - 2560 ตำแหน่งนักวิจัยฝึกงาน ห้องปฏิบัติการ Software engineering and formal verification, National Institute of Informatics ประเทศญี่ปุ่น <br>
+                    2558 - 2561 ตำแหน่งผู้ช่วยสอน/อาจารย์ผู้ช่วยสอน คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย <br>
+                    2556 - 2557 ตำแหน่งนักวิเคราะห์ระบบอาวุโส บริษัทดาตาวันเอเชีย (ประเทศไทย) จำกัด <br>
+                    2554 - 2555 ตำแหน่งนักวิเคราะห์ระบบ กลุ่มบริษัทเออาร์ซอฟต์ จำกัด <br>
+                    2552 – 2554 ตำแหน่งโปรแกรมเมอร์ กลุ่มบริษัทเซ็นทรัลรีเทล จำกัด (สังกัด Tera Soft) <br>
+                    2551 - 2551 ตำแหน่งโปรแกรมเมอร์ บริษัททีมเวิร์คโซลูชัน จำกัด <br>
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    ผลงานวิจัย
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    <ol>
+                      <li><b>Dechsupa, C.</b> , Prasankok P., Vatanawood, W. and Thongtak, A., “MorphoNet: A Novel Bivalve Images Classification Framework with Convolutional Neural Network”, Engineering Journal, V.27 (9), 2023, (Q3)</li>
+
+                      <li>Duangmalai, S. and <b> Dechsupa, C.</b>, “Transforming of the Sequence Diagram into Time-Automata Network”, IMECS 2023, July 5-7, 2023, Hong Kong.</li>
+                      <li>Kamput, A. and <b>Dechsupa, C.</b>, “Formal Modelling and Verification of the Traffic Light Control System Design with Time-Automata”, IMECS 2023, July 5-7, 2023, Hong Kong.</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W. and Thongtak, A., “Stepwise Verification for the BPMN with Timed and Stochastic Process Using a Colored Generalized Stochastic Petri Net,” IEEE Access, 2022, DOI: 10.1109/ACCESS.2022.3168000, (Q1)</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W., Poolsawadi W., and Thongtak, A., “An Applying Colored Petri Net for Computerized Accounting System and Ledger Accounts Instruction,” Computers, 10 (12), p.169, 2021, (Q2)</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W. and Thongtak, A., “An Automated Framework for BPMN Model Verification Achieving Branch Coverage”, Engineering Journal, V.25 (2), 2021, (Q2)</li>
+                      <li>Poolsawasdi, W., <b>Dechsupa, C.</b>, “Formal Verification of the Accounting Information Interfaces Using Colored Petri Net”, ICEAST 2019, 2-5 July, 2019, Laos</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W. and Thongtak, A., “Compositional Formal Verification for Business Process Models with Heterogeneous Notations Using Colored Petri Net”, IMECS 2019, March 13-15, 2019, Hong Kong. (Best paper award)</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W. and Thongtak, A., “Hierarchical Verification of the BPMN Design Model Using state space analysis”, Journal of IEEE access, v.7, 2019, (Q1)</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W. and Thongtak, A., “Transformation of a BPMN Design Model into Colored Petri Net Using the Partitioning Approach”, Journal of IEEE access, v.6, 2018, (Q1)</li>
+                      <li><b>Dechsupa, C.</b>, Vatanawood, W. and Thongtak, A., “Formal Verification of Web Service Orchestration Using Colored Petri Net”, IMECS 2016, March 16-18, 2016, Hong Kong.</li>
+                      <li><b>Dechsupa, C.</b>, and Limpiyakorn, Y.,” Configuration Management for Integrated Teaming Environment”, International Conference on System Science, Engineering Design and Manufacturing Informatization, 2011, October 22-23, 2011, China.</li>
+                      <li><b>ชานนท์ เดชสุภา</b> และ ญาใจ ลิ่มปิยะกรณ์, “ระบบจัดการโครงแบบสำหรับสภาพแวดล้อมที่มีการบูรณาการทีมงาน”, Proceedings, International Computer Science and Engineering Conference (ICSEC 2011), September 8-9, 2011, Thailand</li>
+                    </ol>
+                  </div>
+                </div>
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Storage</a></h3>
-              <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
-            </div>
-          </div><!-- End Card Item -->
+              <!-- # Faq item-->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">Logistics</a></h3>
-              <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
-            </div>
-          </div><!-- End Card Item -->
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">Cargo</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
             </div>
-          </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">Trucking</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">Packaging</a></h3>
-              <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
-              <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
-            </div>
-          </div><!-- End Card Item -->
-
+          </div>
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
 
@@ -210,15 +269,15 @@
               <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="********">
             </div>
             <div class="mb-3 text-end">
-                            <a href="">ลืมรหัสผ่าน</a>
-                        </div>
+              <a href="">ลืมรหัสผ่าน</a>
+            </div>
             <div class="mb-3">
               <button type="submit" class="btn btn-primary" style="width: 100%;">เข้าสู่ระบบ</button>
             </div>
 
           </form>
         </div>
-        
+
       </div>
     </div>
   </div>
