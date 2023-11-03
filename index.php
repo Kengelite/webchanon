@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="./assets/img/favicon.png" rel="icon">
-  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/img/icon_webchanon.png" rel="icon">
+  <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,11 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="./assets/css/main.css" rel="stylesheet">
 
-  <style>
-    .breadcrumbs .page-header h2 {
 
-}
-  </style>
 </head>
 
 <body>
@@ -54,10 +50,10 @@
         <ul>
           <li><a href="./index.php" class="active">หน้าหลัก</a></li>
           <li><a href="./paper_project.php">งานวิจัยและโครงงาน</a></li>
-          <li><a href="services.html">ซอฟต์แวร์</a></li>
+          <li><a href="#">ซอฟต์แวร์</a></li>
           <li><a href="./checkscore.php">ตรวจสอบคะแนน</a></li>
           <li><a href="./about.php">เกี่ยวกับเรา</a></li>
-          <li><a href="contact.html">ติดต่อ</a></li>
+          <li><a href="#">ติดต่อ</a></li>
           <li><a class="get-a-quote" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -99,7 +95,7 @@
               <div class="card-img">
                 <img src="./assets/img/Brand2.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">ขอแสดงความยินดีแก่ อ. ดร.ชานนท์ เดชสุภา อาจารย์ประจำวิทยาลัยการคอมพิวเตอร์</a></h3>
+              <h3><a href="#" class="stretched-link">ขอแสดงความยินดีแก่ อ. ดร.ชานนท์ เดชสุภา อาจารย์ประจำวิทยาลัยการคอมพิวเตอร์</a></h3>
               <p>เนื่องในโอกาสได้รับการตีพิมพ์ในวารสาร IEEE Access วารสารในฐาน ISI ควอไทส์ที่ 1 บทความวิจัยเรื่อง "Stepwise Verification for the BPMN with Timed and Stochastic Process Using a colored Generalized Stochastic Petri Net"</p>
             </div>
           </div><!-- End Card Item -->
@@ -121,12 +117,12 @@
               <div class="card-img">
                 <img src="./assets/img/mdpi_computers.svg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">ขอแสดงความยินดีแก่ อ. ดร.ชานนท์ เดชสุภา อาจารย์ประจำวิทยาลัยการคอมพิวเตอร์</a></h3>
+              <h3><a href="#" class="stretched-link">ขอแสดงความยินดีแก่ อ. ดร.ชานนท์ เดชสุภา อาจารย์ประจำวิทยาลัยการคอมพิวเตอร์</a></h3>
               <p>ขอแสดงความยินดีแก่ อ. ดร.ชานนท์ เดชสุภา อาจารย์ประจำวิทยาลัยการคอมพิวเตอร์ เนื่องในโอกาสที่ได้รับอาจารย์ประจำหลักสูตรเทคโนโลยีสารสนเทศที่มีบทความวิจัยตีพิมพ์เผยแพร่ในวารสารวิชาการระดับนานาชาติ บทความวิจัย "An Applying Colored Petri Net for Computerized Accounting System and Ledger Accounts Instruction" <br> ตีพิมพ์ในวารสาร : MDPI Computers (2021)</p>
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="card">
               <div class="card-img">
                 <img src="./assets/img/mdpi_computers.svg" alt="" class="img-fluid">
@@ -134,9 +130,9 @@
               <h3><a href="service-details.html" class="stretched-link">Trucking</a></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
@@ -144,9 +140,9 @@
               <h3><a href="service-details.html" class="stretched-link">Packaging</a></h3>
               <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
@@ -154,8 +150,8 @@
               <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
               <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
             </div>
-          </div><!-- End Card Item -->
-
+          </div>End Card Item -->
+ 
         </div>
 
       </div>
@@ -179,7 +175,7 @@
               <div class="card-img">
                 <img src="./assets/img/1.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">HIERARCHICAL BPMN VERIFICATION</a></h3>
+              <h3><a href="https://www.researchgate.net/publication/330379640_Hierarchical_Verification_of_the_BPMN_Design_Model_Using_the_State_Space_Analysis" class="stretched-link">HIERARCHICAL BPMN VERIFICATION</a></h3>
               <p>This paper proposes a hierarchical verification technique for state space analysis based on a colored Petri net (CPN). A BPMN partitioning technique and rules for the transformation of a BPMN into a CPN model are provided. The partitioning approach supports the unstructured BPMN design model, and the obtained CPN model also supports hierarchical verification.</p>
             </div>
           </div><!-- End Card Item -->
@@ -189,7 +185,7 @@
               <div class="card-img">
                 <img src="./assets/img/2.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">ACCOUNTING SYSTEM VERIFICATION</a></h3>
+              <h3><a href="https://www.researchgate.net/publication/356991762_An_Applying_Colored_Petri_Net_for_Computerized_Accounting_System_and_Ledger_Accounts_Instruction" class="stretched-link">ACCOUNTING SYSTEM VERIFICATION</a></h3>
               <p>This paper proposes a CPNcolored Petri net (CPN)-based model for the instruction of an accounting system focused on the journal entries processes, accounting modules, and accounting transaction flows. The CPN-based language and the model checking tool named CPN are used to represent the accounting system components: a chart of accounts, an account mapping profile, the journal and ledgers system, and the financial report creations.</p>
             </div>
           </div><!-- End Card Item -->
@@ -199,11 +195,11 @@
               <div class="card-img">
                 <img src="./assets/img/3.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">STOCHASTIC PROCESS VERIFICATION</a></h3>
+              <h3><a href="https://www.researchgate.net/publication/360038317_Stepwise_Verification_for_the_BPMN_With_Timed_and_Stochastic_Process_Using_a_Colored_Generalized_Stochastic_Petri_Net" class="stretched-link">STOCHASTIC PROCESS VERIFICATION</a></h3>
               <p>This paper proposes a quantitative verification approach for analyzing and optimizing IoT manufacturing design models that are designed in business process model and notation (BPMN) representation. The transformation rules of BPMN element into the colored generalized stochastic Petri net (CGSPN) are proposed, and the stepwise approaches for refining and verifying the components of the CGSPN models are illustrated.</p>
             </div>
           </div><!-- End Card Item -->
-
+<!-- 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
@@ -212,8 +208,8 @@
               <h3><a href="service-details.html" class="stretched-link">Trucking</a></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
             </div>
-          </div><!-- End Card Item -->
-
+          </div>End Card Item -->
+<!-- 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="card">
               <div class="card-img">
@@ -222,9 +218,9 @@
               <h3><a href="service-details.html" class="stretched-link">Packaging</a></h3>
               <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
@@ -232,7 +228,7 @@
               <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
               <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>End Card Item -->
 
         </div>
 
@@ -348,99 +344,7 @@
       </div>
     </section>  -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
-          <span>Frequently Asked Questions</span>
-          <h2>Frequently Asked Questions</h2>
-
-        </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-10">
-
-            <div class="accordion accordion-flush" id="faqlist">
-
-              <div class="accordion-item" style="border-radius: 20px;">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    Non consectetur a erat nam at lectus urna duis?
-                  </button>
-                </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </div>
-                </div>
-              </div><!-- # Faq item-->
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                  </button>
-                </h3>
-                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </div>
-                </div>
-              </div><!-- # Faq item-->
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                  </button>
-                </h3>
-                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                  </div>
-                </div>
-              </div><!-- # Faq item-->
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                  </button>
-                </h3>
-                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                  </div>
-                </div>
-              </div><!-- # Faq item-->
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                  </button>
-                </h3>
-                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                  </div>
-                </div>
-              </div><!-- # Faq item-->
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
 

@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="./assets/img/favicon.png" rel="icon">
-  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/img/icon_webchanon.png" rel="icon">
+  <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,11 +49,11 @@
         <ul>
           <li><a href="./index.php">หน้าหลัก</a></li>
           <li><a href="./paper_project.php">งานวิจัยและโครงงาน</a></li>
-          <li><a href="services.html">ซอฟต์แวร์</a></li>
+          <li><a href="#">ซอฟต์แวร์</a></li>
           <li><a href="./checkscore.php">ตรวจสอบคะแนน</a></li>
           <li><a href="./about.php" class="active">เกี่ยวกับเรา</a></li>
 
-          <li><a href="contact.html">ติดต่อ</a></li>
+          <li><a href="#">ติดต่อ</a></li>
           <li><a class="get-a-quote" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -217,12 +217,13 @@
                       <li><b>Dechsupa, C.</b>, and Limpiyakorn, Y.,” Configuration Management for Integrated Teaming Environment”, International Conference on System Science, Engineering Design and Manufacturing Informatization, 2011, October 22-23, 2011, China.</li>
                       <li><b>ชานนท์ เดชสุภา</b> และ ญาใจ ลิ่มปิยะกรณ์, “ระบบจัดการโครงแบบสำหรับสภาพแวดล้อมที่มีการบูรณาการทีมงาน”, Proceedings, International Computer Science and Engineering Conference (ICSEC 2011), September 8-9, 2011, Thailand</li>
                     </ol>
+                    <p>เพิ่มเติม <span><a href="https://www.researchgate.net/profile/Chanon-Dechsupa">Research Gate</a></span></p>
                   </div>
                 </div>
               </div>
               <!-- # Faq item-->
 
-              <div class="accordion-item">
+              <!-- <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <i class="bi bi-question-circle question-icon"></i>
@@ -234,7 +235,7 @@
                     Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
                   </div>
                 </div>
-              </div><!-- # Faq item-->
+              </div># Faq item -->
 
             </div>
 

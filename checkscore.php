@@ -9,9 +9,9 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="./assets/img/favicon.png" rel="icon">
-    <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="./assets/img/icon_webchanon.png" rel="icon">
+  <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,11 +49,11 @@
                 <ul>
                     <li><a href="./index.php">หน้าหลัก</a></li>
                     <li><a href="./paper_project.php">งานวิจัยและโครงงาน</a></li>
-                    <li><a href="services.html">ซอฟต์แวร์</a></li>
+                    <li><a href="#">ซอฟต์แวร์</a></li>
                     <li><a href="./checkscore.php" class="active">ตรวจสอบคะแนน</a></li>
                     <li><a href="./about.php">เกี่ยวกับเรา</a></li>
 
-                    <li><a href="contact.html">ติดต่อ</a></li>
+                    <li><a href="#">ติดต่อ</a></li>
                     <li><a class="get-a-quote"  data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</a></li>
                 </ul>
             </nav><!-- .navbar -->

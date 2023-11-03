@@ -9,9 +9,9 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="./assets/img/favicon.png" rel="icon">
-    <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="./assets/img/icon_webchanon.png" rel="icon">
+  <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,10 +49,10 @@
                 <ul>
                     <li><a href="./index.php">หน้าหลัก</a></li>
                     <li><a href="./paper_project.php" class="active">งานวิจัยและโครงงาน</a></li>
-                    <li><a href="services.html">ซอฟต์แวร์</a></li>
+                    <li><a href="#">ซอฟต์แวร์</a></li>
                     <li><a href="./checkscore.php">ตรวจสอบคะแนน</a></li>
                     <li><a href="./about.php">เกี่ยวกับเรา</a></li>
-                    <li><a href="contact.html">ติดต่อ</a></li>
+                    <li><a href="#">ติดต่อ</a></li>
                     <li><a class="get-a-quote" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</a></li>
                 </ul>
             </nav><!-- .navbar -->
@@ -88,7 +88,7 @@
                             <div class="card-img">
                                 <img src="./assets/img/bpmn2.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="service-details.html" class="stretched-link">Stepwise Verification for the BPMN With Timed and Stochastic Process Using a Colored Generalized Stochastic Petri Net</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/360038317_Stepwise_Verification_for_the_BPMN_With_Timed_and_Stochastic_Process_Using_a_Colored_Generalized_Stochastic_Petri_Net?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">Stepwise Verification for the BPMN With Timed and Stochastic Process Using a Colored Generalized Stochastic Petri Net</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -97,7 +97,7 @@
                             <div class="card-img">
                                 <img src="./assets/img/anapplying.pbm" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="#" class="stretched-link">An Applying Colored Petri Net for Computerized Accounting System and Ledger Accounts Instruction</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/356991762_An_Applying_Colored_Petri_Net_for_Computerized_Accounting_System_and_Ledger_Accounts_Instruction?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">An Applying Colored Petri Net for Computerized Accounting System and Ledger Accounts Instruction</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -106,7 +106,7 @@
                             <div class="card-img">
                                 <img src="./assets/img/auto3.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="service-details.html" class="stretched-link">An Automated Framework for BPMN Model Verification Achieving Branch Coverage</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/349683197_An_Automated_Framework_for_BPMN_Model_Verification_Achieving_Branch_Coverage?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">An Automated Framework for BPMN Model Verification Achieving Branch Coverage</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -116,7 +116,7 @@
                             <div class="card-img">
                                 <img src="./assets/img/figure3.pbm" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="service-details.html" class="stretched-link">Hierarchical Verification of the BPMN Design Model Using the State Space Analysis</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/330379640_Hierarchical_Verification_of_the_BPMN_Design_Model_Using_the_State_Space_Analysis?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">Hierarchical Verification of the BPMN Design Model Using the State Space Analysis</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -127,7 +127,7 @@
                             <div class="card-img">
                                 <img src="assets/img/tranform1.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="service-details.html" class="stretched-link">Transformation of the BPMN Design Model into a Colored Petri Net Using the Partitioning Approach</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/326241461_Transformation_of_the_BPMN_Design_Model_into_a_Colored_Petri_Net_Using_the_Partitioning_Approach" class="stretched-link">Transformation of the BPMN Design Model into a Colored Petri Net Using the Partitioning Approach</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -136,7 +136,7 @@
                             <div class="card-img">
                                 <img src="assets/img/fig1.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="service-details.html" class="stretched-link">MorphoNet: A Novel Bivalve Images Classification Framework with Convolutional Neural Network</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/374447851_MorphoNet_A_Novel_Bivalve_Images_Classification_Framework_with_Convolutional_Neural_Network?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">MorphoNet: A Novel Bivalve Images Classification Framework with Convolutional Neural Network</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -255,99 +255,6 @@
       </div>
     </section>  -->
 
-        <!-- ======= Frequently Asked Questions Section ======= -->
-        <section id="faq" class="faq">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <span>Frequently Asked Questions</span>
-                    <h2>Frequently Asked Questions</h2>
-
-                </div>
-
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-10">
-
-                        <div class="accordion accordion-flush" id="faqlist">
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                        <i class="bi bi-question-circle question-icon"></i>
-                                        Non consectetur a erat nam at lectus urna duis?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                        <i class="bi bi-question-circle question-icon"></i>
-                                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                        <i class="bi bi-question-circle question-icon"></i>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                                        <i class="bi bi-question-circle question-icon"></i>
-                                        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        <i class="bi bi-question-circle question-icon"></i>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                                        <i class="bi bi-question-circle question-icon"></i>
-                                        Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Frequently Asked Questions Section -->
 
     </main><!-- End #main -->
 
