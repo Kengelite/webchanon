@@ -473,6 +473,7 @@
 
   <script>
   var textElement = document.getElementById('text');
+	 let totletxt = textElement.length
   var text = textElement.textContent; // รับข้อความจาก element
   var index = 0;
 
@@ -481,13 +482,16 @@
     if (index < text.length) {
       textElement.textContent = text.substring(0, index + 1);
       index++;
-    } else {
-      index = 0;
-    }
+    } 
+    //else {
+      // index = 0;
+    // }
   }
 
   // เริ่มการแสดงข้อความโดยใช้ setInterval
-  setInterval(showText, 200); // กำหนดเวลาความเร็วในการแสดงตัวอักษร
+  if (totletxt != index){
+    setInterval(showText, 50);
+  }
 </script>
 </body>
 

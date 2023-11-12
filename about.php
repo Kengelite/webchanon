@@ -79,7 +79,7 @@
         </div>
 
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="./assets/img/ajchanonimage.jpeg" class="img-fluid mb-3 mb-lg-0" alt="">
+          <img src="./assets/img/imagechanon.png" class="img-fluid mb-3 mb-lg-0" alt="" style="background-color: rgb(255, 255, 255); padding: 0.25rem; border-radius: 0.25rem;     border: 1px solid rgb(222, 226, 230);">
         </div>
 
       </div>
