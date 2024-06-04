@@ -64,7 +64,7 @@
 
   <!-- ======= Breadcrumbs ======= -->
   <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('./assets/img/bg1.svg'); height: 70vh;">
+      <div class="page-header d-flex align-items-center" style="background-image: url('./assets/img/bg_web.png'); height: 70vh;">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-12 text-center">
