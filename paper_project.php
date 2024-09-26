@@ -9,14 +9,16 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="./assets/img/icon_webchanon.png" rel="icon">
-  <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
-
+    <!-- Favicons -->
+    <link href="./assets/img/icon_webchanon.png" rel="icon">
+    <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +30,35 @@
 
     <!-- Template Main CSS File -->
     <link href="./assets/css/main.css" rel="stylesheet">
+    <style>
+    .card-img img {
+        object-fit: cover;
+        /* ทำให้รูปเต็มพื้นที่ */
+        width: 100%;
+        height: 250px;
+        /* กำหนดความสูงเท่ากันสำหรับรูป */
+    }
 
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-title {
+        margin-bottom: 15px;
+    }
+
+    h3.card-title a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    h3.card-title a:hover {
+        color: #ffcc00;
+        /* ปรับสีเมื่อ hover บนลิงก์ */
+    }
+    </style>
 </head>
 
 <body>
@@ -88,7 +118,9 @@
                             <div class="card-img">
                                 <img src="./assets/img/bpmn2.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="https://www.researchgate.net/publication/360038317_Stepwise_Verification_for_the_BPMN_With_Timed_and_Stochastic_Process_Using_a_Colored_Generalized_Stochastic_Petri_Net?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">Stepwise Verification for the BPMN With Timed and Stochastic Process Using a Colored Generalized Stochastic Petri Net</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/360038317_Stepwise_Verification_for_the_BPMN_With_Timed_and_Stochastic_Process_Using_a_Colored_Generalized_Stochastic_Petri_Net?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
+                                    class="stretched-link">Stepwise Verification for the BPMN With Timed and Stochastic
+                                    Process Using a Colored Generalized Stochastic Petri Net</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -97,7 +129,9 @@
                             <div class="card-img">
                                 <img src="./assets/img/anapplying.pbm" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="https://www.researchgate.net/publication/356991762_An_Applying_Colored_Petri_Net_for_Computerized_Accounting_System_and_Ledger_Accounts_Instruction?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">An Applying Colored Petri Net for Computerized Accounting System and Ledger Accounts Instruction</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/356991762_An_Applying_Colored_Petri_Net_for_Computerized_Accounting_System_and_Ledger_Accounts_Instruction?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
+                                    class="stretched-link">An Applying Colored Petri Net for Computerized Accounting
+                                    System and Ledger Accounts Instruction</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -106,7 +140,9 @@
                             <div class="card-img">
                                 <img src="./assets/img/auto3.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="https://www.researchgate.net/publication/349683197_An_Automated_Framework_for_BPMN_Model_Verification_Achieving_Branch_Coverage?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">An Automated Framework for BPMN Model Verification Achieving Branch Coverage</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/349683197_An_Automated_Framework_for_BPMN_Model_Verification_Achieving_Branch_Coverage?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
+                                    class="stretched-link">An Automated Framework for BPMN Model Verification Achieving
+                                    Branch Coverage</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -116,7 +152,9 @@
                             <div class="card-img">
                                 <img src="./assets/img/figure3.pbm" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="https://www.researchgate.net/publication/330379640_Hierarchical_Verification_of_the_BPMN_Design_Model_Using_the_State_Space_Analysis?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">Hierarchical Verification of the BPMN Design Model Using the State Space Analysis</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/330379640_Hierarchical_Verification_of_the_BPMN_Design_Model_Using_the_State_Space_Analysis?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
+                                    class="stretched-link">Hierarchical Verification of the BPMN Design Model Using the
+                                    State Space Analysis</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
@@ -127,18 +165,22 @@
                             <div class="card-img">
                                 <img src="assets/img/tranform1.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="https://www.researchgate.net/publication/326241461_Transformation_of_the_BPMN_Design_Model_into_a_Colored_Petri_Net_Using_the_Partitioning_Approach" class="stretched-link">Transformation of the BPMN Design Model into a Colored Petri Net Using the Partitioning Approach</a></h3>
+                            <h3><a href="https://www.researchgate.net/publication/326241461_Transformation_of_the_BPMN_Design_Model_into_a_Colored_Petri_Net_Using_the_Partitioning_Approach"
+                                    class="stretched-link">Transformation of the BPMN Design Model into a Colored Petri
+                                    Net Using the Partitioning Approach</a></h3>
                         </div>
                     </div><!-- End Card Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-lg-4 col-md-6" id="bivalve" data-aos="fade-up" data-aos-delay="600">
                         <div class="card">
                             <div class="card-img">
                                 <img src="assets/img/fig1.png" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="https://www.researchgate.net/publication/374447851_MorphoNet_A_Novel_Bivalve_Images_Classification_Framework_with_Convolutional_Neural_Network?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" class="stretched-link">MorphoNet: A Novel Bivalve Images Classification Framework with Convolutional Neural Network</a></h3>
+                            <h3><a id="https://www.researchgate.net/publication/374447851_MorphoNet_A_Novel_Bivalve_Images_Classification_Framework_with_Convolutional_Neural_Network?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ"
+                                    class="stretched-link">MorphoNet: A Novel Bivalve Images Classification Framework
+                                    with Convolutional Neural Network</a></h3>
                         </div>
-                    </div><!-- End Card Item -->
+                    </div>
 
                 </div>
 
@@ -274,11 +316,13 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">อีเมล</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">รหัสผ่าน</label>
-                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="********">
+                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                placeholder="********">
                         </div>
                         <div class="mb-3 text-end">
                             <a href="">ลืมรหัสผ่าน</a>
@@ -366,10 +410,35 @@
     </footer><!-- End Footer -->
     <!-- End Footer -->
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <div id="preloader"></div>
 
+
+    <script>
+    $(document).ready(function() {
+        $("#bivalve").click(function() {
+            Swal.fire({
+              title: "What do you want to do?",
+              text: "Choose whether to view the paper or download the dataset.",
+                icon: "question", // เพิ่มเครื่องหมายจุลภาคที่นี่
+                showDenyButton: true,
+                showCloseButton: true,
+                // showCancelButton: true,
+                confirmButtonText: "View Paper",
+                denyButtonText: `Dowload Dataset`
+            }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                    Swal.fire("Saved!", "", "success");
+                } else if (result.isDenied) {
+                    Swal.fire("Changes are not saved", "", "info");
+                }
+            });
+        });
+    });
+    </script>
     <!-- Vendor JS Files -->
     <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -380,7 +449,7 @@
 
     <!-- Template Main JS File -->
     <script src="./assets/js/main.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
