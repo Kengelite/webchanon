@@ -10,10 +10,7 @@
 
 <body>
 
-</body>
-
-</html>
-<?php
+    <?php
 $host = '147.50.227.17';
 $db = 'drnadech_webchanon';
 $user = 'drnadech_adminwebchanon';
@@ -27,7 +24,7 @@ if ($conn->connect_error) {
 }
 
 // รับค่า email จาก GET request
-if (isset($_GET['email']) && !empty($_GET['email'])) {
+if ( !empty($_GET['email'])) {
     $email = $conn->real_escape_string($_GET['email']);
 
 $query = "SELECT * FROM users WHERE email='$email' AND end_time > NOW()";
@@ -53,36 +50,50 @@ if ($result->num_rows > 0) {
         readfile($file);
         
        ?>
-<script>
-Swal.fire({
-    title: "Download Success!",
-    text: "The file has been downloaded successfully.",
-    icon: "success"
-}).then(() => {
-    window.location.href = './index.php';
+    <script>
+    Swal.fire({
+        title: "Download Success!",
+        text: "The file has been downloaded successfully.",
+        icon: "success"
+    }).then(() => {
+        window.location.href = './index.php';
 
-});
-</script>
-<?php
+    });
+    </script>
+    <?php
         exit; // ออกจาก script เพื่อให้ไฟล์ถูกดาวน์โหลดอย่างสมบูรณ์
     } else {
-        echo "<div class='alert alert-danger text-center'>ไม่พบไฟล์สำหรับดาวน์โหลด</div>";
+        ?>
+    <script>
+    Swal.fire({
+        icon: "error",
+        title: "Download Error!1",
+        text: "The session has expired. Please request a new download link from the email.",
+    }).then(() => {
+        window.location.href = './index.php';
+
+    });
+    </script>
+    <?php
     }
 } else {
     // ถ้า end_time น้อยกว่าหรือเท่ากับเวลาปัจจุบัน ไม่สามารถดาวน์โหลดไฟล์ได้
     // header("Location: ./index.php");
     ?>
-<script>
-Swal.fire({
-    icon: "error",
-    title: "Download Error!",
-    text: "The session has expired. Please request a new download link from the email.",
-}).then(() => {
-    window.location.href = './index.php';
+    <script>
+    Swal.fire({
+        icon: "error",
+        title: "Download Error!2",
+        text: "The session has expired. Please request a new download link from the email.",
+    }).then(() => {
+        window.location.href = './index.php';
 
-});
-</script>
-<?php
+    });
+    </script>
+    <?php
 }
 }
 ?>
+</body>
+
+</html>
