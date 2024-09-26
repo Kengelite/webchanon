@@ -11,7 +11,7 @@
         <div class="row justify-content-center pt-5">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header text-white">
+                    <div class="card-header ">
                         <h2 class="card-title text-center p-3">Register for get Data </h2>
                     </div>
                     <div class="card-body mt-5">
