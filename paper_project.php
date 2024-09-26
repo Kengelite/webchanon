@@ -420,20 +420,27 @@
     $(document).ready(function() {
         $("#bivalve").click(function() {
             Swal.fire({
-              title: "What do you want to do?",
-              text: "Choose whether to view the paper or download the dataset.",
+                title: "What do you want to do?",
+                text: "Choose whether to view the paper or download the dataset.",
                 icon: "question", // เพิ่มเครื่องหมายจุลภาคที่นี่
                 showDenyButton: true,
                 showCloseButton: true,
                 // showCancelButton: true,
                 confirmButtonText: "View Paper",
-                denyButtonText: `Dowload Dataset`
+                denyButtonText: `Dowload Dataset`,
+                customClass: {
+                    denyButton: 'bg-warning' ,
+                    confirmButton: 'bg-success'  // ใส่ชื่อ class ที่ต้องการ
+                }
             }).then((result) => {
                 /* Read more about isConfirmed, isDenied below */
                 if (result.isConfirmed) {
-                    Swal.fire("Saved!", "", "success");
+                    // Swal.fire("Saved!", "", "success");   
+                    window.open(
+                        'https://www.researchgate.net/publication/374447851_MorphoNet_A_Novel_Bivalve_Images_Classification_Framework_with_Convolutional_Neural_Network?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ'
+                        )
                 } else if (result.isDenied) {
-                    Swal.fire("Changes are not saved", "", "info");
+                  window.location.href = './bivalvedataset.php'
                 }
             });
         });
