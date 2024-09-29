@@ -34,6 +34,7 @@ if ( !empty($_GET['email'])) {
     $email = $conn->real_escape_string($email);   
      $email = stripslashes($email);  
      $email = str_replace(" ", "'", $email);
+     echo    $email;
     $query = "SELECT * FROM users WHERE email={$email} AND end_time > NOW()";
     $result = $conn->query($query);
     echo    $result;
