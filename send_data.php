@@ -79,7 +79,7 @@ $mail->Subject = "Data Request for Bivalve Research by Chanon";
 $mail->Body = '<h1>Bivalve Research Data Access</h1>
 <p>Dear User,</p>
 <p>We are pleased to provide you with access to the bivalve research data. Please click the link below to download the data.</p>
-<a href="https://drnadech.com/get_data_Bivalve.php?email=' . "'".$email  ."'".'>Click here to access the data</a>
+<a href="https://drnadech.com/get_data_Bivalve.php?email=\'' . $email . '\'">Click here to access the data !!!!!</a>
 <p>If you have any questions or require further assistance, feel free to contact us.</p>
 <p>Best regards,</p>
 <p>Chanon</p>';
