@@ -25,15 +25,25 @@ if ($conn->connect_error) {
 
 // รับค่า email จาก GET request
 if ( !empty($_GET['email'])) {
-    $email = $conn->real_escape_string($_GET['email']);
+    $email = $_GET['email'];
+    
+    // แก้ไขปัญหาการมี ' ซ้ำกัน
+  
 
-$query = "SELECT * FROM users WHERE email='$email' AND end_time > NOW()";
-$result = $conn->query($query);
+    // Escape ตัวแปร email เพื่อป้องกัน SQL Injection
+    $email = $conn->real_escape_string($email);   
+     $email = stripslashes($email);  
+     $email = str_replace(" ", "'", $email);
+    $query = "SELECT * FROM users WHERE email={$email} AND end_time > NOW()";
+    $result = $conn->query($query);
 
 if ($result->num_rows > 0) {
     // กำหนดเส้นทางไปยังไฟล์ zip
-    $file = './dataset/Ensi_Pict.zip';  // ใส่ที่อยู่ไฟล์ zip ของคุณ
+   
 
+
+
+    $file = './dataset/Ensi_Pict.zip';  // ใส่ที่อยู่ไฟล์ zip ของคุณ
     // ตรวจสอบว่าไฟล์มีอยู่จริงหรือไม่
     if (file_exists($file)) {
         // กำหนดส่วนหัวของ HTTP เพื่อให้ไฟล์ถูกดาวน์โหลด
@@ -48,19 +58,7 @@ if ($result->num_rows > 0) {
         // อ่านไฟล์และส่งให้ผู้ใช้ดาวน์โหลด
         flush(); // Flush system output buffer
         readfile($file);
-        
-       ?>
-    <script>
-    Swal.fire({
-        title: "Download Success!",
-        text: "The file has been downloaded successfully.",
-        icon: "success"
-    }).then(() => {
-        window.location.href = './index.php';
-
-    });
-    </script>
-    <?php
+        header('Location: ./index.php');
         exit; // ออกจาก script เพื่อให้ไฟล์ถูกดาวน์โหลดอย่างสมบูรณ์
     } else {
         ?>
