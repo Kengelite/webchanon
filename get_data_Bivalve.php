@@ -28,71 +28,68 @@ if ( !empty($_GET['email'])) {
     $email = $_GET['email'];
     
     // แก้ไขปัญหาการมี ' ซ้ำกัน
-  
+    date_default_timezone_set("Asia/Bangkok");
 
     // Escape ตัวแปร email เพื่อป้องกัน SQL Injection
     $email = $conn->real_escape_string($email);   
      $email = stripslashes($email);  
      $email = str_replace(" ", "'", $email);
-     echo    $email;
     $query = "SELECT * FROM users WHERE email={$email} AND end_time > NOW()";
-    echo    $query;
     $result = $conn->query($query);
-    echo    $result;
 
-// if ($result->num_rows > 0) {
-//     // กำหนดเส้นทางไปยังไฟล์ zip
+if ($result->num_rows > 0) {
+    // กำหนดเส้นทางไปยังไฟล์ zip
    
 
 
 
-//     $file = './dataset/Ensi_Pict.zip';  // ใส่ที่อยู่ไฟล์ zip ของคุณ
-//     // ตรวจสอบว่าไฟล์มีอยู่จริงหรือไม่
-//     if (file_exists($file)) {
-//         // กำหนดส่วนหัวของ HTTP เพื่อให้ไฟล์ถูกดาวน์โหลด
-//         header('Content-Description: File Transfer');
-//         header('Content-Type: application/zip');
-//         header('Content-Disposition: attachment; filename="'.basename($file).'"');
-//         header('Expires: 0');
-//         header('Cache-Control: must-revalidate');
-//         header('Pragma: public');
-//         header('Content-Length: ' . filesize($file));
+    $file = './dataset/Ensi_Pict.zip';  // ใส่ที่อยู่ไฟล์ zip ของคุณ
+    // ตรวจสอบว่าไฟล์มีอยู่จริงหรือไม่
+    if (file_exists($file)) {
+        // กำหนดส่วนหัวของ HTTP เพื่อให้ไฟล์ถูกดาวน์โหลด
+        header('Content-Description: File Transfer');
+        header('Content-Type: application/zip');
+        header('Content-Disposition: attachment; filename="'.basename($file).'"');
+        header('Expires: 0');
+        header('Cache-Control: must-revalidate');
+        header('Pragma: public');
+        header('Content-Length: ' . filesize($file));
         
-//         // อ่านไฟล์และส่งให้ผู้ใช้ดาวน์โหลด
-//         flush(); // Flush system output buffer
-//         readfile($file);
-//         header('Location: ./index.php');
-//         exit; // ออกจาก script เพื่อให้ไฟล์ถูกดาวน์โหลดอย่างสมบูรณ์
-//     } else {
-//         ?>
-//     <script>
-//     Swal.fire({
-//         icon: "error",
-//         title: "Download Error!1",
-//         text: "The session has expired. Please request a new download link from the email.",
-//     }).then(() => {
-//         window.location.href = './index.php';
+        // อ่านไฟล์และส่งให้ผู้ใช้ดาวน์โหลด
+        flush(); // Flush system output buffer
+        readfile($file);
+        header('Location: ./index.php');
+        exit; // ออกจาก script เพื่อให้ไฟล์ถูกดาวน์โหลดอย่างสมบูรณ์
+    } else {
+        ?>
+    <script>
+    Swal.fire({
+        icon: "error",
+        title: "Download Error!1",
+        text: "The session has expired. Please request a new download link from the email.",
+    }).then(() => {
+        window.location.href = './index.php';
 
-//     });
-//     </script>
-//     <?php
-//     }
-// } else {
-//     // ถ้า end_time น้อยกว่าหรือเท่ากับเวลาปัจจุบัน ไม่สามารถดาวน์โหลดไฟล์ได้
-//     // header("Location: ./index.php");
-//     ?>
-//     <script>
-//     Swal.fire({
-//         icon: "error",
-//         title: "Download Error!2",
-//         text: "The session has expired. Please request a new download link from the email.",
-//     }).then(() => {
-//         window.location.href = './index.php';
+    });
+    </script>
+    <?php
+    }
+} else {
+    // ถ้า end_time น้อยกว่าหรือเท่ากับเวลาปัจจุบัน ไม่สามารถดาวน์โหลดไฟล์ได้
+    // header("Location: ./index.php");
+    ?>
+    <script>
+    Swal.fire({
+        icon: "error",
+        title: "Download Error!2",
+        text: "The session has expired. Please request a new download link from the email.",
+    }).then(() => {
+        window.location.href = './index.php';
 
-//     });
-//     </script>
-//     <?php
-// }
+    });
+    </script>
+    <?php
+}
 }
 ?>
 </body>
