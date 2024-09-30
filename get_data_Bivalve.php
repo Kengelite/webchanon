@@ -34,9 +34,8 @@ if ( !empty($_GET['email'])) {
     $email = $conn->real_escape_string($email);   
      $email = stripslashes($email);  
      $email = str_replace(" ", "'", $email);
-    $query = "SELECT * FROM users WHERE email={$email} AND end_time > NOW()";
+     $query = "SELECT * FROM users WHERE email=".$email." AND end_time > NOW()";
     $result = $conn->query($query);
-
 if ($result->num_rows > 0) {
     // กำหนดเส้นทางไปยังไฟล์ zip
    
