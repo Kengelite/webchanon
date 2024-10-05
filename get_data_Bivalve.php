@@ -11,11 +11,17 @@
 <body>
 
     <?php
+	
 $host = '147.50.227.17';
 $db = 'drnadech_webchanon';
 $user = 'drnadech_adminwebchanon';
 $pass = 'Nc*262kk9';
 // เชื่อมต่อฐานข้อมูล
+	
+	ini_set('memory_limit', '2048M');
+ini_set('max_execution_time', '600');
+ini_set('post_max_size', '2000M');
+ini_set('upload_max_filesize', '2000M');
 $conn = new mysqli($host, $user, $pass, $db);
 
 // ตรวจสอบการเชื่อมต่อ
@@ -45,20 +51,18 @@ if ($result->num_rows > 0) {
     $file = './dataset/Ensi_Pict.zip';  // ใส่ที่อยู่ไฟล์ zip ของคุณ
     // ตรวจสอบว่าไฟล์มีอยู่จริงหรือไม่
     if (file_exists($file)) {
-        // กำหนดส่วนหัวของ HTTP เพื่อให้ไฟล์ถูกดาวน์โหลด
-        header('Content-Description: File Transfer');
-        header('Content-Type: application/zip');
-        header('Content-Disposition: attachment; filename="'.basename($file).'"');
-        header('Expires: 0');
-        header('Cache-Control: must-revalidate');
-        header('Pragma: public');
-        header('Content-Length: ' . filesize($file));
-        
-        // อ่านไฟล์และส่งให้ผู้ใช้ดาวน์โหลด
-        flush(); // Flush system output buffer
-        readfile($file);
-        header('Location: ./index.php');
-        exit; // ออกจาก script เพื่อให้ไฟล์ถูกดาวน์โหลดอย่างสมบูรณ์
+		header('Content-Description: File Transfer');
+		header('Content-Type: application/zip');
+		header('Content-Disposition: attachment; filename="'.basename($file).'"');
+		header('Expires: 0');
+		header('Cache-Control: must-revalidate');
+		header('Pragma: public');
+		header('Content-Length: ' . filesize($file));
+	 	  ob_clean(); // ล้าง buffer ทั้งหมดก่อนส่งไฟล์
+           flush(); // ส่ง header ออกไปก่อน
+           readfile($file);
+		exit; // จบการทำงานของสคริปต์
+
     } else {
         ?>
     <script>
