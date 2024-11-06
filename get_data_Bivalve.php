@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./assets/img/icon_webchanon.png" rel="icon">
+  <link href="./assets/img/icon_webchanon.png" rel="apple-touch-icon">
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- เรียกใช้ Swal -->
 </head>
 
@@ -84,10 +87,10 @@ if ($result->num_rows > 0) {
     <script>
     Swal.fire({
         icon: "error",
-        title: "Download Error!2",
+        title: "Download Error!",
         text: "The session has expired. Please request a new download link from the email.",
     }).then(() => {
-        window.location.href = './index.php';
+        window.location.href = './bivalvedataset.php';
 
     });
     </script>
